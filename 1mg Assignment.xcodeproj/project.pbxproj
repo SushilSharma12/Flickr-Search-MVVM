@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		CDAE240024B31C7A00525E4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAE23FF24B31C7A00525E4F /* AppDelegate.swift */; };
-		CDAE240224B31C7A00525E4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAE240124B31C7A00525E4F /* SceneDelegate.swift */; };
 		CDAE240424B31C7A00525E4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAE240324B31C7A00525E4F /* ViewController.swift */; };
 		CDAE240724B31C7A00525E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAE240524B31C7A00525E4F /* Main.storyboard */; };
 		CDAE240924B31CF700525E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAE240824B31CF700525E4F /* Assets.xcassets */; };
 		CDAE240C24B31CF700525E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAE240A24B31CF700525E4F /* LaunchScreen.storyboard */; };
+		CDAE241524B3207600525E4F /* FlickrPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAE241424B3207600525E4F /* FlickrPhotos.swift */; };
+		CDAE241824B320A200525E4F /* FlickImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAE241724B320A200525E4F /* FlickImageCollectionCell.swift */; };
+		CDAE241B24B320DF00525E4F /* ViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAE241A24B320DF00525E4F /* ViewController+Extensions.swift */; };
+		CDAE241E24B323EE00525E4F /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAE241D24B323EE00525E4F /* HTTPHandler.swift */; };
+		CDAE242124B3276000525E4F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAE242024B3276000525E4F /* Constants.swift */; };
+		CDAE242324B328D500525E4F /* FlickrPhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAE242224B328D500525E4F /* FlickrPhotosViewModel.swift */; };
+		CDAE242A24B38B9800525E4F /* LoaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAE242824B38B9800525E4F /* LoaderCell.swift */; };
+		CDAE242B24B38B9800525E4F /* LoaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDAE242924B38B9800525E4F /* LoaderCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CDAE23FC24B31C7A00525E4F /* 1mg Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1mg Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAE23FF24B31C7A00525E4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDAE240124B31C7A00525E4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CDAE240324B31C7A00525E4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDAE240624B31C7A00525E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDAE240824B31CF700525E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDAE240B24B31CF700525E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDAE240D24B31CF700525E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAE241424B3207600525E4F /* FlickrPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotos.swift; sourceTree = "<group>"; };
+		CDAE241724B320A200525E4F /* FlickImageCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickImageCollectionCell.swift; sourceTree = "<group>"; };
+		CDAE241A24B320DF00525E4F /* ViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extensions.swift"; sourceTree = "<group>"; };
+		CDAE241D24B323EE00525E4F /* HTTPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHandler.swift; sourceTree = "<group>"; };
+		CDAE242024B3276000525E4F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CDAE242224B328D500525E4F /* FlickrPhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotosViewModel.swift; sourceTree = "<group>"; };
+		CDAE242824B38B9800525E4F /* LoaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderCell.swift; sourceTree = "<group>"; };
+		CDAE242924B38B9800525E4F /* LoaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoaderCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +70,11 @@
 		CDAE23FE24B31C7A00525E4F /* 1mg Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				CDAE241C24B323CE00525E4F /* HttpHandler */,
+				CDAE241924B320AA00525E4F /* ViewModel */,
+				CDAE241624B3208200525E4F /* View */,
+				CDAE241324B3205600525E4F /* Model */,
 				CDAE23FF24B31C7A00525E4F /* AppDelegate.swift */,
-				CDAE240124B31C7A00525E4F /* SceneDelegate.swift */,
 				CDAE240324B31C7A00525E4F /* ViewController.swift */,
 				CDAE240524B31C7A00525E4F /* Main.storyboard */,
 				CDAE240824B31CF700525E4F /* Assets.xcassets */,
@@ -65,6 +82,42 @@
 				CDAE240D24B31CF700525E4F /* Info.plist */,
 			);
 			path = "1mg Assignment";
+			sourceTree = "<group>";
+		};
+		CDAE241324B3205600525E4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDAE241424B3207600525E4F /* FlickrPhotos.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDAE241624B3208200525E4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDAE241724B320A200525E4F /* FlickImageCollectionCell.swift */,
+				CDAE242824B38B9800525E4F /* LoaderCell.swift */,
+				CDAE242924B38B9800525E4F /* LoaderCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDAE241924B320AA00525E4F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CDAE241A24B320DF00525E4F /* ViewController+Extensions.swift */,
+				CDAE242224B328D500525E4F /* FlickrPhotosViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CDAE241C24B323CE00525E4F /* HttpHandler */ = {
+			isa = PBXGroup;
+			children = (
+				CDAE241D24B323EE00525E4F /* HTTPHandler.swift */,
+				CDAE242024B3276000525E4F /* Constants.swift */,
+			);
+			path = HttpHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +180,7 @@
 			files = (
 				CDAE240C24B31CF700525E4F /* LaunchScreen.storyboard in Resources */,
 				CDAE240924B31CF700525E4F /* Assets.xcassets in Resources */,
+				CDAE242B24B38B9800525E4F /* LoaderCell.xib in Resources */,
 				CDAE240724B31C7A00525E4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +192,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDAE241B24B320DF00525E4F /* ViewController+Extensions.swift in Sources */,
 				CDAE240424B31C7A00525E4F /* ViewController.swift in Sources */,
+				CDAE242A24B38B9800525E4F /* LoaderCell.swift in Sources */,
+				CDAE242324B328D500525E4F /* FlickrPhotosViewModel.swift in Sources */,
+				CDAE241824B320A200525E4F /* FlickImageCollectionCell.swift in Sources */,
 				CDAE240024B31C7A00525E4F /* AppDelegate.swift in Sources */,
-				CDAE240224B31C7A00525E4F /* SceneDelegate.swift in Sources */,
+				CDAE242124B3276000525E4F /* Constants.swift in Sources */,
+				CDAE241E24B323EE00525E4F /* HTTPHandler.swift in Sources */,
+				CDAE241524B3207600525E4F /* FlickrPhotos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +347,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VF34U894H2;
 				INFOPLIST_FILE = "1mg Assignment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sushil.-mg-Assignment";
+				PRODUCT_BUNDLE_IDENTIFIER = "sushil.1mg-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,11 +366,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VF34U894H2;
 				INFOPLIST_FILE = "1mg Assignment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sushil.-mg-Assignment";
+				PRODUCT_BUNDLE_IDENTIFIER = "sushil.1mg-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
